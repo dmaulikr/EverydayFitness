@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA4C37351E1CC1FC0022953E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4C37341E1CC1FC0022953E /* AppDelegate.swift */; };
+		DA4C37371E1CC1FC0022953E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4C37361E1CC1FC0022953E /* ViewController.swift */; };
+		DA4C373A1E1CC1FC0022953E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4C37381E1CC1FC0022953E /* Main.storyboard */; };
+		DA4C373C1E1CC1FC0022953E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA4C373B1E1CC1FC0022953E /* Assets.xcassets */; };
+		DA4C373F1E1CC1FC0022953E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4C373D1E1CC1FC0022953E /* LaunchScreen.storyboard */; };
+		DA4C374A1E1CC1FD0022953E /* EverydayFitnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4C37491E1CC1FD0022953E /* EverydayFitnessTests.swift */; };
+		DA4C37551E1CC1FD0022953E /* EverydayFitnessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4C37541E1CC1FD0022953E /* EverydayFitnessUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA4C37461E1CC1FD0022953E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA4C37291E1CC1FC0022953E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA4C37301E1CC1FC0022953E;
+			remoteInfo = EverydayFitness;
+		};
+		DA4C37511E1CC1FD0022953E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA4C37291E1CC1FC0022953E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA4C37301E1CC1FC0022953E;
+			remoteInfo = EverydayFitness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA4C37311E1CC1FC0022953E /* EverydayFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverydayFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4C37341E1CC1FC0022953E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA4C37361E1CC1FC0022953E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA4C37391E1CC1FC0022953E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA4C373B1E1CC1FC0022953E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA4C373E1E1CC1FC0022953E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA4C37401E1CC1FC0022953E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA4C37451E1CC1FD0022953E /* EverydayFitnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EverydayFitnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4C37491E1CC1FD0022953E /* EverydayFitnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EverydayFitnessTests.swift; sourceTree = "<group>"; };
+		DA4C374B1E1CC1FD0022953E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA4C37501E1CC1FD0022953E /* EverydayFitnessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EverydayFitnessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4C37541E1CC1FD0022953E /* EverydayFitnessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EverydayFitnessUITests.swift; sourceTree = "<group>"; };
+		DA4C37561E1CC1FD0022953E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA4C372E1E1CC1FC0022953E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4C37421E1CC1FD0022953E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4C374D1E1CC1FD0022953E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA4C37281E1CC1FC0022953E = {
+			isa = PBXGroup;
+			children = (
+				DA4C37331E1CC1FC0022953E /* EverydayFitness */,
+				DA4C37481E1CC1FD0022953E /* EverydayFitnessTests */,
+				DA4C37531E1CC1FD0022953E /* EverydayFitnessUITests */,
+				DA4C37321E1CC1FC0022953E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA4C37321E1CC1FC0022953E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA4C37311E1CC1FC0022953E /* EverydayFitness.app */,
+				DA4C37451E1CC1FD0022953E /* EverydayFitnessTests.xctest */,
+				DA4C37501E1CC1FD0022953E /* EverydayFitnessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA4C37331E1CC1FC0022953E /* EverydayFitness */ = {
+			isa = PBXGroup;
+			children = (
+				DA4C37341E1CC1FC0022953E /* AppDelegate.swift */,
+				DA4C37361E1CC1FC0022953E /* ViewController.swift */,
+				DA4C37381E1CC1FC0022953E /* Main.storyboard */,
+				DA4C373B1E1CC1FC0022953E /* Assets.xcassets */,
+				DA4C373D1E1CC1FC0022953E /* LaunchScreen.storyboard */,
+				DA4C37401E1CC1FC0022953E /* Info.plist */,
+			);
+			path = EverydayFitness;
+			sourceTree = "<group>";
+		};
+		DA4C37481E1CC1FD0022953E /* EverydayFitnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA4C37491E1CC1FD0022953E /* EverydayFitnessTests.swift */,
+				DA4C374B1E1CC1FD0022953E /* Info.plist */,
+			);
+			path = EverydayFitnessTests;
+			sourceTree = "<group>";
+		};
+		DA4C37531E1CC1FD0022953E /* EverydayFitnessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA4C37541E1CC1FD0022953E /* EverydayFitnessUITests.swift */,
+				DA4C37561E1CC1FD0022953E /* Info.plist */,
+			);
+			path = EverydayFitnessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA4C37301E1CC1FC0022953E /* EverydayFitness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA4C37591E1CC1FD0022953E /* Build configuration list for PBXNativeTarget "EverydayFitness" */;
+			buildPhases = (
+				DA4C372D1E1CC1FC0022953E /* Sources */,
+				DA4C372E1E1CC1FC0022953E /* Frameworks */,
+				DA4C372F1E1CC1FC0022953E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EverydayFitness;
+			productName = EverydayFitness;
+			productReference = DA4C37311E1CC1FC0022953E /* EverydayFitness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA4C37441E1CC1FD0022953E /* EverydayFitnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA4C375C1E1CC1FD0022953E /* Build configuration list for PBXNativeTarget "EverydayFitnessTests" */;
+			buildPhases = (
+				DA4C37411E1CC1FD0022953E /* Sources */,
+				DA4C37421E1CC1FD0022953E /* Frameworks */,
+				DA4C37431E1CC1FD0022953E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA4C37471E1CC1FD0022953E /* PBXTargetDependency */,
+			);
+			name = EverydayFitnessTests;
+			productName = EverydayFitnessTests;
+			productReference = DA4C37451E1CC1FD0022953E /* EverydayFitnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA4C374F1E1CC1FD0022953E /* EverydayFitnessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA4C375F1E1CC1FD0022953E /* Build configuration list for PBXNativeTarget "EverydayFitnessUITests" */;
+			buildPhases = (
+				DA4C374C1E1CC1FD0022953E /* Sources */,
+				DA4C374D1E1CC1FD0022953E /* Frameworks */,
+				DA4C374E1E1CC1FD0022953E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA4C37521E1CC1FD0022953E /* PBXTargetDependency */,
+			);
+			name = EverydayFitnessUITests;
+			productName = EverydayFitnessUITests;
+			productReference = DA4C37501E1CC1FD0022953E /* EverydayFitnessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA4C37291E1CC1FC0022953E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LEOFALCON;
+				TargetAttributes = {
+					DA4C37301E1CC1FC0022953E = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					DA4C37441E1CC1FD0022953E = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA4C37301E1CC1FC0022953E;
+					};
+					DA4C374F1E1CC1FD0022953E = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DA4C37301E1CC1FC0022953E;
+					};
+				};
+			};
+			buildConfigurationList = DA4C372C1E1CC1FC0022953E /* Build configuration list for PBXProject "EverydayFitness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA4C37281E1CC1FC0022953E;
+			productRefGroup = DA4C37321E1CC1FC0022953E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA4C37301E1CC1FC0022953E /* EverydayFitness */,
+				DA4C37441E1CC1FD0022953E /* EverydayFitnessTests */,
+				DA4C374F1E1CC1FD0022953E /* EverydayFitnessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA4C372F1E1CC1FC0022953E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4C373F1E1CC1FC0022953E /* LaunchScreen.storyboard in Resources */,
+				DA4C373C1E1CC1FC0022953E /* Assets.xcassets in Resources */,
+				DA4C373A1E1CC1FC0022953E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4C37431E1CC1FD0022953E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4C374E1E1CC1FD0022953E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA4C372D1E1CC1FC0022953E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4C37371E1CC1FC0022953E /* ViewController.swift in Sources */,
+				DA4C37351E1CC1FC0022953E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4C37411E1CC1FD0022953E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4C374A1E1CC1FD0022953E /* EverydayFitnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4C374C1E1CC1FD0022953E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4C37551E1CC1FD0022953E /* EverydayFitnessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA4C37471E1CC1FD0022953E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA4C37301E1CC1FC0022953E /* EverydayFitness */;
+			targetProxy = DA4C37461E1CC1FD0022953E /* PBXContainerItemProxy */;
+		};
+		DA4C37521E1CC1FD0022953E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA4C37301E1CC1FC0022953E /* EverydayFitness */;
+			targetProxy = DA4C37511E1CC1FD0022953E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA4C37381E1CC1FC0022953E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA4C37391E1CC1FC0022953E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA4C373D1E1CC1FC0022953E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA4C373E1E1CC1FC0022953E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA4C37571E1CC1FD0022953E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA4C37581E1CC1FD0022953E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA4C375A1E1CC1FD0022953E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EverydayFitness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = practice1.EverydayFitness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DA4C375B1E1CC1FD0022953E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EverydayFitness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = practice1.EverydayFitness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DA4C375D1E1CC1FD0022953E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EverydayFitnessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = practice1.EverydayFitnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EverydayFitness.app/EverydayFitness";
+			};
+			name = Debug;
+		};
+		DA4C375E1E1CC1FD0022953E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EverydayFitnessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = practice1.EverydayFitnessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EverydayFitness.app/EverydayFitness";
+			};
+			name = Release;
+		};
+		DA4C37601E1CC1FD0022953E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EverydayFitnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = practice1.EverydayFitnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EverydayFitness;
+			};
+			name = Debug;
+		};
+		DA4C37611E1CC1FD0022953E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EverydayFitnessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = practice1.EverydayFitnessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EverydayFitness;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA4C372C1E1CC1FC0022953E /* Build configuration list for PBXProject "EverydayFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4C37571E1CC1FD0022953E /* Debug */,
+				DA4C37581E1CC1FD0022953E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA4C37591E1CC1FD0022953E /* Build configuration list for PBXNativeTarget "EverydayFitness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4C375A1E1CC1FD0022953E /* Debug */,
+				DA4C375B1E1CC1FD0022953E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA4C375C1E1CC1FD0022953E /* Build configuration list for PBXNativeTarget "EverydayFitnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4C375D1E1CC1FD0022953E /* Debug */,
+				DA4C375E1E1CC1FD0022953E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA4C375F1E1CC1FD0022953E /* Build configuration list for PBXNativeTarget "EverydayFitnessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4C37601E1CC1FD0022953E /* Debug */,
+				DA4C37611E1CC1FD0022953E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA4C37291E1CC1FC0022953E /* Project object */;
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA1DEAF01E1E2FE80012DFBD /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1DEAEF1E1E2FE80012DFBD /* UIViewController+Navigation.swift */; };
 		DA4C37351E1CC1FC0022953E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4C37341E1CC1FC0022953E /* AppDelegate.swift */; };
 		DA4C37371E1CC1FC0022953E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4C37361E1CC1FC0022953E /* ViewController.swift */; };
 		DA4C373A1E1CC1FC0022953E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA4C37381E1CC1FC0022953E /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA1DEAEF1E1E2FE80012DFBD /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+Navigation.swift"; path = "../../PilotPlant/Sources/UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 		DA4C37311E1CC1FC0022953E /* EverydayFitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverydayFitness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4C37341E1CC1FC0022953E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA4C37361E1CC1FC0022953E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				DA4C37341E1CC1FC0022953E /* AppDelegate.swift */,
 				DA4C37361E1CC1FC0022953E /* ViewController.swift */,
 				DA4C37381E1CC1FC0022953E /* Main.storyboard */,
+				DA1DEAEF1E1E2FE80012DFBD /* UIViewController+Navigation.swift */,
 				DA4C373B1E1CC1FC0022953E /* Assets.xcassets */,
 				DA4C373D1E1CC1FC0022953E /* LaunchScreen.storyboard */,
 				DA4C37401E1CC1FC0022953E /* Info.plist */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					DA4C37301E1CC1FC0022953E = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = CWNX8H9T5J;
 						ProvisioningStyle = Automatic;
 					};
 					DA4C37441E1CC1FD0022953E = {
@@ -259,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA1DEAF01E1E2FE80012DFBD /* UIViewController+Navigation.swift in Sources */,
 				DA4C37371E1CC1FC0022953E /* ViewController.swift in Sources */,
 				DA4C37351E1CC1FC0022953E /* AppDelegate.swift in Sources */,
 			);
@@ -412,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CWNX8H9T5J;
 				INFOPLIST_FILE = EverydayFitness/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = practice1.EverydayFitness;
@@ -424,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CWNX8H9T5J;
 				INFOPLIST_FILE = EverydayFitness/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = practice1.EverydayFitness;
@@ -505,6 +512,7 @@
 				DA4C375B1E1CC1FD0022953E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA4C375C1E1CC1FD0022953E /* Build configuration list for PBXNativeTarget "EverydayFitnessTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +521,7 @@
 				DA4C375E1E1CC1FD0022953E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA4C375F1E1CC1FD0022953E /* Build configuration list for PBXNativeTarget "EverydayFitnessUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +530,7 @@
 				DA4C37611E1CC1FD0022953E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
